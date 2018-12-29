@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/estilos.css">
+</head>
+<body>
+	<div id="titulo">
+		<h1>Queen</h1>
+	</div>
+	<div class="subtitulo">
+		<h2>Ve el video del concierto en vivo</h2>
+	</div>	
+	<!-- Aqui estará el video -->
+	<video controls muted poster="video/poster.png">
+		<source src="video/queen.webm">
+		<source src="video/queen.m4v">
+		<source src="video/queen.mkv">
+		Video No soportado.
+	</video>
+	<div class="subtitulo">
+		<h2>Escucha el audio de la canción</h2>
+	</div>
+	<!-- Aquí estará la canción -->
+	<audio muted controls preload="metadata">
+		<source src="audio/sample.wav">
+		<source src="audio/sample.mp3">
+		<source src="audio/sample.ogg">
+		Lo sentimos, no se puede reproducir el audio, actualice su navegador.
+	</audio>
+</body>
+</html>
