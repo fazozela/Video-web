@@ -1,0 +1,41 @@
+html, body{
+	height: 100%;
+}
+body{
+	background-image: url("../img/queen.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+video, audio{
+	width: 70%;
+}
+h2{
+	text-shadow: 0 0 12px black; 
+}
+/*Tarea:
+1.- Para dispositivos 
+grandes (>1000px):
+- El fondo sea rosado,
+- El div de titulo
+sea verde.
+- El div del subtitulo
+sea azul
+- Todas las letras
+rojas.
+2.- Para disp >=800px
+y < 1000px
+- Las letras del
+titulo a la derecha
+- Los subtitulos
+a la izquierda
+- De fondo la imagen
+- El video tenga el
+doble de ancho que 
+el audio.
+3.- Para disp <800px
+- El fondo sea el 
+poster.png
+- Los subtitilos no
+se vean
+(transparentes)*/
